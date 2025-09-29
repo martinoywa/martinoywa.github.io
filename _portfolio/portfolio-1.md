@@ -1,7 +1,12 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Histopathological Lung Cancer Classification"
+excerpt: "Custom Efficient Neural Network For Histopathological Lung Cancer Classification" # <br/><img src='/images/histopathological-lung-cancer-architecture.png'>"
 collection: portfolio
 ---
+[https://github.com/martinoywa/turbo-guacamole](https://github.com/martinoywa/turbo-guacamole)
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+This paper explores the development and evaluation of a small custom image classifier for lung cancer histopathological images. Leveraging Deep Neural Networks, the model should aid enhance medical diagnosis efficiency. To optimize deployment, the architecture focuses on minimizing model size without resorting to post-development compression techniques. The algorithm demonstrates promising results, achieving a 91.89% reduction in parameter size compared to EfficientNet variant B0, with a deployable model parameter size of approximately 1.6 MegaBytes (MBs). Training results reveal superior performance, with a final accuracy of 99% and a loss of 0.018140. Despite longer training times compared to some variants, the model's effectiveness underscores the potential of tailored deep learning solutions in medical diagnostics, albeit with hardware-dependent considerations.
+
+The hosted web applications can be found here. https://lungcancerhistopathy.streamlit.app/
+
+Note: To use notebook and trained weights, rename `model_v4_0199.pt` to `model.pt` in checkpoints folder.
