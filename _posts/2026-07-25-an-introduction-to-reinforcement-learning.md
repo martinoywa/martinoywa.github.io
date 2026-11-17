@@ -1,6 +1,6 @@
 ---
 title: "An Introduction to Reinforcement Learning"
-date: 2026-07-01
+date: 2026-07-25
 permalink: /posts/2026/07/an-introduction-to-reinforcement-learning/
 ---
 
